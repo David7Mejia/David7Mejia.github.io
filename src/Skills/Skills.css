@@ -1,0 +1,33 @@
+.skills-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#skills-intro {
+    margin-top: 5rem;
+    justify-content: flex-end;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.icons-container p {
+   color: #3dff94;
+}

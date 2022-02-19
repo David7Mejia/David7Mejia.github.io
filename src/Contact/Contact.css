@@ -1,0 +1,29 @@
+.email {
+    background-image: url('../images/email.svg');
+}
+
+.linkedin {
+    background-image: url('../images/linkedin.svg');
+
+}
+
+.github {
+    background-image: url('../images/github-sign.svg');
+
+}
+
+.github, .linkedin, .email {
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.contact-container {
+    display: flex;
+    margin-top: 2rem;
+    width: 60%;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,49 @@
+* {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.landing-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10rem; */
+    width: 100%;
+}
+
+.landing {
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    color: #e6e9e9;
+    width: 50%
+}
+
+.animation-holder {
+    margin-top: 20px;
+}
+
+.greeting-animation, .typed-cursor {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.greeting-animation {
+    color: #3dff94;
+
+}
+
+.my-name, .my-role {
+    color: #3dff94;
+    font-weight: 200;
+}
+
+.my-intro {
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.intro-talk {
+    font-size: 20px;
+}

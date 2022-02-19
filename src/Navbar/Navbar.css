@@ -1,0 +1,138 @@
+/*? **NAVBAR** ?*/
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #151C2A;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    /* padding-left: 2%; */
+    border-bottom: 1px solid rgba(153, 150, 150, 0.493);
+}
+
+.navbar-logo {
+    display: flex;
+    background-image: url('../images/dmLogo.svg');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+.logo-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    width: 100px;
+}
+
+.navbar a {
+    color: #e6e9e9;
+    height: 100%;
+    text-decoration: none;
+}
+
+/*? **LINK HOLDER** ?*/
+.link-holder {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Share Tech Mono', monospace;
+    color: #3dff94;
+    align-items: center;
+    font-size: 18px;
+    /* 5dfff0*/
+}
+
+/*? **PAGE LINKS** ?*/
+.page-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-right: 2%; */
+
+    width: 80%;
+}
+
+.page-links a {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    border-bottom: 0;
+}
+
+.page-links a:hover {
+    color: #3dff94;
+}
+
+.page-links a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    transition: width .3s;
+}
+
+.page-links a:hover::after {
+    width: 100%;
+}
+
+/*? **RESUME** ?*/
+.resume {
+    /* z-index: 33; */
+    /* text-align: center; */
+    /* border: rgba(190, 190, 190, 0.493) 1px solid; */
+    /* width: 90px; */
+    border-radius: 5%;
+}
+
+
+.resume a{
+
+}
+
+/* .resume a:hover::after {
+    width: 0;
+} */
+
+/*? **RESUME LINK** ?*/
+.resume-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.resume-link:hover {
+    color: #e6e9e9;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; */
+}
+
+#resume-link {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+/*
+.page-links a:last-child {
+    width: 90px;
+    border: rgba(190, 190, 190, 0.493) 1px solid;
+    border-radius: 5%;
+    margin-left: 40px;
+}
+
+.page-links a:last-child:before {
+    content: none
+} */
