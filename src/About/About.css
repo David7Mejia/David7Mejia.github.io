@@ -16,9 +16,16 @@
     height: 50px;
 }
 
-.about-me-intro, .about-me {
+.about-me-intro {
     width: 40%;
     font-size: 20px;
+}
+
+.about-me {
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: left;
+
 }
 
 .about-me span {
@@ -57,4 +64,11 @@
     height: 1px;
     margin-left: 5px;
     background-color: #3dff94
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .about-me {
+        width: 80%;
+    }
 }
