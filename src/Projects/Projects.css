@@ -17,10 +17,18 @@
 .project {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 40%;
-    height: 380px;
+    height: 30rem;
     margin: 10px;
-    border-bottom: 1px solid #3dff94;
+    border: 1px solid #3dff94;
+}
+
+.project-desc {
+    display: flex;
+    padding: 1rem;
+    height: 8rem;
+    /* margin-bottom: 70px; */
 }
 
 .project-1 {
@@ -58,9 +66,10 @@
     width: 100%;
 }
 
-.project-title{
+.project-title {
     font-size: 25px;
 }
+
 .project p {
     font-family: 'Share Tech', monospace;
     color: #e6e9e9;
@@ -89,3 +98,9 @@
 }
 
 
+@media only screen and (max-width: 850px) {
+
+    .project {
+        width: 80%;
+    }
+}
