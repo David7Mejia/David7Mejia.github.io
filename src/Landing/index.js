@@ -1,6 +1,6 @@
-import React from 'react';
-import {useEffect, useRef} from 'react';
-import './Landing.css'
+import React from "react";
+import { useEffect, useRef } from "react";
+import "./Landing.css";
 // import ScrollReveal from "scrollreveal";
 import Typed from "typed.js";
 
@@ -36,20 +36,22 @@ const Landing = () => {
   return (
     <div className="landing-holder" id="landing-holder">
       <div className="landing">
-        <div className="animation-holder">
-          <span className="greeting-animation" ref={el} />
-        </div>
-        <p className="my-intro">
-          My name is <span className="my-name">David</span>.
-          <br />
-          I'm a <span className="my-role">Full-Stack SWE</span>.
-          <p className="intro-talk">
-            I have a passion for new tech, photography, and travel!
+        <div className="align-intro">
+          <div className="animation-holder">
+            <span className="greeting-animation" ref={el} />
+          </div>
+          <p className="my-intro">
+            My name is <span className="my-name">David</span>.
+            <br />
+            I'm a <span className="my-role">Full-Stack SWE</span>.
+            <p className="intro-talk">
+              I have a passion for new tech, photography, and travel!
+            </p>
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Landing
+export default Landing;

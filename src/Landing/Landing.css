@@ -6,21 +6,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 10rem; */
+    flex-direction: column;
+    margin-top: 50px;
     width: 100%;
+    height: 100%;
+}
+
+.align-intro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
 }
 
 .landing {
-    margin-top: 80px;
-
-    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    display: flex;
+    /* flex-direction: column; */
     color: #e6e9e9;
-    width: 50%
+    width: 100%
 }
 
 .animation-holder {
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .greeting-animation, .typed-cursor {
@@ -40,10 +49,16 @@
 
 .my-intro {
     margin-top: 20px;
-    font-size: 60px;
+    font-size: 4rem;
     margin-bottom: 0;
 }
 
 .intro-talk {
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .my-intro {
+        font-size: 3rem;
+    }
 }

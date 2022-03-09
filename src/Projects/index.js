@@ -1,8 +1,8 @@
-import React from 'react';
-import {useEffect} from "react";
-import { Link } from 'react-router-dom';
+import React from "react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
-import './Projects.css';
+import "./Projects.css";
 import nomadika from "../images/Nomadika.PNG";
 import travlr from "../images/Travlr.PNG";
 import oilflow from "../images/StackOilFLow.PNG";
@@ -22,7 +22,7 @@ const Projects = () => {
       <p className="about-me-intro" id="projects-intro">
         Projects
       </p>
-      <div className="project-holder" id='project-holder'>
+      <div className="project-holder" id="project-holder">
         <div className="project" id="nomadika">
           <p className="project-title">Nomadika</p>
           <a
@@ -33,7 +33,7 @@ const Projects = () => {
             <img src={nomadika} alt="nomadika" className="project-1" />
           </a>
 
-          <p>
+          <p className="project-desc">
             A travel app MVP with a custom Neomorphic UI that provides real time
             venue information. Users can save venues of any city and interact
             with other users through a feed in that city.{" "}
@@ -58,7 +58,7 @@ const Projects = () => {
           >
             <img src={travlr} alt="travlr" className="project-1" />
           </a>
-          <p>
+          <p className="project-desc">
             A Flickr clone MVP where users have full CRUD functionality on posts
             and comments. Users can check out profiles and posts from other
             users through the social app.
@@ -84,7 +84,7 @@ const Projects = () => {
             <img src={grammy} alt="grammy" className="project-1" />
           </a>
 
-          <p>
+          <p className="project-desc">
             A social media Instagram MVP inspired app where users have full CRUD
             functionality on posts and comments. Users can explore other artists
             and keep track of recent posts through a profile.
@@ -110,7 +110,7 @@ const Projects = () => {
             <img src={oilflow} alt="oilflow" className="project-1" />
           </a>
 
-          <p>
+          <p className="project-desc">
             A Stack Overflow clone MVP where users can create & answer
             questions, search questons asked, and upvote/downvote answers for
             their automotive needs.

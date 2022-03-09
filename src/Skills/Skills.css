@@ -6,6 +6,13 @@
     width: 50%;
 }
 
+.svg-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
 .my-skills {
     display: flex;
     flex-direction: column;
@@ -20,14 +27,31 @@
 }
 
 .icons-container {
+    /* display: flex;
+    flex-direction: column;
+    width: 7rem;
+    height: 7rem;
+    margin: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
-    height: 150px;
-    margin: 20px;
+    justify-content: space-around;
+    width: 10rem;
+    /* height: 30rem; */
+    margin: 10px;
 }
 
 .icons-container p {
-   color: #3dff94;
+    color: #3dff94;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .icons-container {
+        width: 25%;
+    }
+
+    .skills-holder {
+        width: 80%;
+    }
 }
