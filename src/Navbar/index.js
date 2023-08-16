@@ -24,10 +24,10 @@ const Navbar = () => {
                     {/* ./ */}
                     <a href="#my-projects">projects</a>
                 </span>
-                {/* <span className="link-holder">
-            ./
-            <a href="#contact-holder">contact</a>
-          </span> */}
+                <span className="link-holder">
+                    {/* ./ */}
+                    <a href="#contact-holder">contact</a>
+                </span>
                 <span className="link-holder resume">
                     {/* ./ */}
                     <a

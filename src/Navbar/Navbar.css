@@ -82,7 +82,6 @@
 }
 
 .page-links a:hover {
-    color: #6E9075;
     transition: ease-in-out .2s;
 
 }
@@ -91,7 +90,8 @@
     content: '';
     width: 0;
     height: 3px;
-    background: #ef233c;
+
+    background-image: linear-gradient(to right, #9076fc, #6de1e7);
     transition: width ease-in-out .2s;
     border-radius: 18px;
 }
@@ -124,13 +124,7 @@
     width: 100%
 }
 
-.resume-link:hover {
-    color: #e6e9e9;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; */
-}
+
 
 #resume-link {
     display: flex;

@@ -12,13 +12,60 @@
 
 }
 
-.github, .linkedin, .email {
+.github,
+.linkedin,
+.email {
     background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background-position: center;
     background-size: contain;
 
+}
+
+#contact-holder {
+    background-color: #151c29;
+    margin: 0 1.25rem;
+    border-radius: 8px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    gap: 15px
+}
+
+.social-title {
+    font-size: 20px;
+    color: #edf2f4;
+    margin-bottom: 10px;
+    /* font-weight: 200; */
+}
+
+.social-email {
+
+    color: #edf2f4;
+}
+
+.social-holder {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* width: fit-content; */
+    /* height: 70px;
+    width: 70px */
+}
+
+.socials-container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.social-desc {
+    color: #edf2f4;
 }
 
 .contact-container {
@@ -26,4 +73,9 @@
     margin-top: 2rem;
     width: 60%;
     justify-content: space-evenly;
+    margin-bottom: 6rem;
+}
+
+#contact-heading {
+    /* color: #0d0d0d !important; */
 }
