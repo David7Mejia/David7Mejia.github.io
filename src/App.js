@@ -12,7 +12,7 @@ import ScrollReveal from "scrollreveal";
 import "./index.css";
 
 function App() {
- 
+
 
   return (
     <div>
@@ -20,9 +20,9 @@ function App() {
         <Navbar />
         <Landing />
         <About />
-        <Skills />
+        {/* <Skills /> */}
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
         <Routes>{/* <Route path='/' element={<Navbar/>} /> */}</Routes>
       </BrowserRouter>
