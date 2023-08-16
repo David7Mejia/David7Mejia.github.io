@@ -2,14 +2,36 @@
     font-family: 'Share Tech Mono', monospace;
 }
 
+.test-svg {
+    transform: scale(1);
+}
+
 .landing-holder {
+    /* background-image: url('../assets/bg.svg'); */
+    background-image: url('../assets/omni-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
-    width: 100%;
-    height: 100%;
+    color: #fff;
+    /* background: linear-gradient(to right, rgba(245, 245, 245, 0.383rgba(245, 245, 245, 0.284).8)), url('../assets/bg.svg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 8rem 6rem 12.5rem;
+    height: 50vh;
+}
+
+.omni-logo {
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url('../assets/omni-logo-ct.svg');
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-size: contain;
 }
 
 .align-intro {
@@ -32,28 +54,39 @@
     margin-top: 80px;
 }
 
-.greeting-animation, .typed-cursor {
+.greeting-animation,
+.typed-cursor {
     margin-top: 30px;
     font-size: 40px;
 }
 
 .greeting-animation {
-    color: #3dff94;
+    /* color: #3dff94; */
+    color: #6E9075;
+    /* color: #6E9075; */
 
 }
 
-.my-name, .my-role {
-    color: #3dff94;
+.my-name,
+.my-role {
+    /* color: #6E9075; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #9076fc, #6de1e7);
+    /* color: #3dff94; */
     font-weight: 200;
 }
 
 .my-intro {
-    margin-top: 20px;
     font-size: 4rem;
-    margin-bottom: 0;
+    width: 100%;
 }
 
 .intro-talk {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
     font-size: 20px;
 }
 

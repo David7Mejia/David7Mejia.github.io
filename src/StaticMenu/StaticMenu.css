@@ -1,0 +1,54 @@
+.static-holder {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    /* transform: translateY(-50%); */
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    padding: 0.5rem;
+    background-color: red;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    width: 50px;
+    background-color: #151c29;
+
+}
+
+.contact-sidebaar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.side-email {
+    background-image: url('../images/email.svg');
+}
+
+.side-linkedin {
+    background-image: url('../images/linkedin.svg');
+
+}
+
+.side-github {
+    background-image: url('../images/github-sign.svg');
+
+}
+
+.side-github,
+.side-linkedin,
+.side-email {
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: contain;
+
+}
+
+/* .contact-container {
+    display: flex;
+    margin-top: 2rem;
+    width: 60%;
+    justify-content: space-evenly;
+} */
