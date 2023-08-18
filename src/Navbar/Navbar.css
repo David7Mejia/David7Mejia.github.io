@@ -144,3 +144,14 @@
 .page-links a:last-child:before {
     content: none
 } */
+
+@media (max-width: 900px) {
+    .navbar {
+        padding: 1rem 2rem;
+        justify-content: center;
+    }
+
+    .page-links {
+        display: none;
+    }
+}
