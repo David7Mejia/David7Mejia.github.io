@@ -14,21 +14,25 @@ import StaticMenu from "./StaticMenu";
 import "./index.css";
 
 function App() {
-    return (
-        <div>
-            <BrowserRouter>
-                <Navbar />
-                <StaticMenu />
-                <Landing />
-                <About />
-                {/* <Skills /> */}
-                <Projects />
-                <Contact />
-                <Footer />
-                <Routes>{/* <Route path='/' element={<Navbar/>} /> */}</Routes>
-            </BrowserRouter>
+  return (
+    <div>
+      <BrowserRouter>
+        <div className="top-holder">
+          <Navbar />
+          <div className="blob"> </div>
+
+          {/* <StaticMenu /> */}
+          <Landing />
+          <About />
+          {/* <Skills /> */}
+          <Projects />
+          <Contact />
+          <Footer />
         </div>
-    );
+        {/* <Routes><Route path='/' element={<Navbar/>} /></Routes> */}
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;

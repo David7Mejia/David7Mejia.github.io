@@ -36,12 +36,18 @@ const About = () => {
                     <div>JavaScript</div>
                     <div>Python</div>
                     <div>React</div>
+                    <div>Nextjs</div>
                     <div>Django</div>
-                    <div>Next</div>
+                    <div>REST API's'</div>
+                    <div>React Native</div>
+                    <div>Tensorflow</div>
+                    <div>Pytorch</div>
                     <div>TypeScript</div>
                     <div>PostgreSQL</div>
+                    <div>MongoDB</div>
+                    <div>JQuery</div>
                     <div>Redux</div>
-                    <div>Node</div>
+                    <div>Nodejs</div>
                     <div>Flask</div>
                     <div>Sequelize</div>
                     <div>Docker</div>
