@@ -73,7 +73,7 @@
   max-width: 600px;
   width: 100%;
   .card-right {
-    display: flex;
+    display: flex !important;
     gap: 16px;
     height: 100%;
     /* align-items: center; */
@@ -97,7 +97,7 @@
 
 .project-1 {
   width: 100%;
-  max-width: 362.37px;
+  /* max-width: 362.37px; */
   border-radius: 8px;
 }
 
