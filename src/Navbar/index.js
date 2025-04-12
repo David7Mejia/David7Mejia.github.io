@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import PDF from "../assets/DM_Resume.pdf";
+import PDF from "../assets/DM_Resume2025-2.pdf";
 import useScroll from "../Hooks/useScroll";
 import "./Navbar.css";
 import cn from "classnames";
@@ -60,10 +60,14 @@ const Navbar = () => {
           })}
         >
           <div>
-            <a href="#about-holder" onClick={(e) => handleNavClick(e, "#about-holder")}>ABOUT</a>
+            <a href="#about-holder" onClick={e => handleNavClick(e, "#about-holder")}>
+              ABOUT
+            </a>
           </div>
           <div>
-            <a href="#my-projects" onClick={(e) => handleNavClick(e, "#my-projects")}>WORK</a>
+            <a href="#my-projects" onClick={e => handleNavClick(e, "#my-projects")}>
+              WORK
+            </a>
           </div>
           <div>
             <a id="resume-link" className="resume-link" href={PDF} target="_blank" rel="noopener noreferrer">
@@ -71,12 +75,16 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <a href="#contact-holder" onClick={(e) => handleNavClick(e, "#contact-holder")}>GET IN TOUCH</a>
+            <a href="#contact-holder" onClick={e => handleNavClick(e, "#contact-holder")}>
+              GET IN TOUCH
+            </a>
           </div>
         </div>
         <span className="link-holder">
           {/* ./ */}
-          <a href="#about-holder" onClick={(e) => handleNavClick(e, "#about-holder")}>ABOUT</a>
+          <a href="#about-holder" onClick={e => handleNavClick(e, "#about-holder")}>
+            ABOUT
+          </a>
         </span>
         {/* <span className="link-holder">
             ./
@@ -84,7 +92,9 @@ const Navbar = () => {
           </span> */}
         <span className="link-holder">
           {/* ./ */}
-          <a href="#my-projects" onClick={(e) => handleNavClick(e, "#my-projects")}>WORK</a>
+          <a href="#my-projects" onClick={e => handleNavClick(e, "#my-projects")}>
+            WORK
+          </a>
         </span>
         <span className="link-holder resume">
           {/* ./ */}
@@ -95,7 +105,9 @@ const Navbar = () => {
       </div>
       <span className="contact-link-holder">
         {/* ./ */}
-        <a href="#contact-holder" onClick={(e) => handleNavClick(e, "#contact-holder")}>GET IN TOUCH</a>
+        <a href="#contact-holder" onClick={e => handleNavClick(e, "#contact-holder")}>
+          GET IN TOUCH
+        </a>
       </span>
     </nav>
   );
