@@ -11,7 +11,6 @@ import Footer from "./Footer";
 import ScrollReveal from "scrollreveal";
 import StaticMenu from "./StaticMenu";
 import SquaresBackground from "./SquaresBackground/index.js";
-import InteractiveBlob from "./InteractiveBlob";
 import "./index.css";
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <div className="top-holder">
-          {/* <InteractiveBlob /> */}
           <SquaresBackground />
           <Landing />
           <div className="blob" />
