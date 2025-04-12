@@ -8,6 +8,7 @@
   align-content: flex-start;
   /* height: calc(100vh - 80px); */
   z-index: -1; /* behind main content */
+  justify-content: center;
 }
 
 /* Overlay that gradually fades at the edges */
