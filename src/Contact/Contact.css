@@ -21,8 +21,10 @@
 }
 
 #contact-holder {
-  /* margin: 0 1.25rem;
-    border-radius: 8px; */
+  border-radius: 1rem;
+  background: #1c1c1c;
+  margin: 0 6rem;
+  padding: 3rem;
 }
 
 .social-links {
@@ -36,7 +38,6 @@
   font-size: 20px;
   color: #edf2f4;
   margin-bottom: 10px;
-  /* font-weight: 200; */
 }
 
 .social-email {
@@ -47,10 +48,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  /* flex-direction: column; */
-  /* width: fit-content; */
-  /* height: 70px;
-    width: 70px */
+
 }
 
 .socials-container-2 {
@@ -65,20 +63,11 @@
 
 .contact-container {
   display: flex;
-  margin-top: 2rem;
   justify-content: space-evenly;
-  margin-bottom: 6rem;
-  margin: 2rem 6rem 2rem 6rem;
 }
 
-#contact-heading {
-  /* color: #0d0d0d !important; */
-}
 
 @media (max-width: 900px) {
-  /* .contact-container {
-    width: 80%;
-  } */
 }
 
 @media (max-width: 501px) {

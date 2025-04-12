@@ -4,7 +4,7 @@ import "./Landing.css";
 // import ScrollReveal from "scrollreveal";
 import Typed from "typed.js";
 import NodesAnimation from "./NodesAnimation";
-
+import SquaresBackground from "../SquaresBackground/index.js";
 const Landing = () => {
   // useEffect(() => {
   //   ScrollReveal().reveal("#landing-holder", { delay: 500, reset:true });
@@ -39,13 +39,16 @@ const Landing = () => {
       {/* <span className="greeting-animation" ref={el} /> */}
       {/* </div> */}
       <div className="my-intro">
-        <span className="my-name">David Mejia</span>
-        <br />
-        Full-Stack <span className="my-role">Software Engineer</span>.
+        <span className="my-name">DAVID MEJIA</span>
+        <span className="my-role">
+          <span className="fullstack">FULL-STACK</span> SOFTWARE ENGINEER
+        </span>
         <p className="intro-talk">
-          Passionate about delivering solutions through the power of technology.
+          Experience in Creating High Quality Digital Solutions,
           <br />
-          Experience in creating modern complex applications.
+          Modern Complex Web Applications
+          <br />
+          and High Converting Websites.
         </p>
       </div>
     </div>

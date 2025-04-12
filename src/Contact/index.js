@@ -13,21 +13,15 @@ const Contact = () => {
   return (
     <div id="contact-holder">
       <div className="my-skills">
-        <p className="about-me-intro" id="contact-heading">
-          Contact
-        </p>
+        <h1 className="about-me-intro" id="contact-heading">
+          CONTACT
+        </h1>
         {/* <div className="blob"></div> */}
         <div className="contact-container">
           <div className="social-holder">
             <div className="social-about">
               <div className="social-title">David Mejia</div>
-              <div className="social-desc">
-                Full-Stack Software Engineer
-                <br />
-                Experience building webistes
-                <br />
-                and applications that provide solutions.
-              </div>
+              <div className="social-desc">Full-Stack Software Engineer</div>
             </div>
             <div className="socials-container-2">
               <div>

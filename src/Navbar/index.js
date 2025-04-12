@@ -19,6 +19,22 @@ const Navbar = () => {
     return;
   };
 
+  const handleNavClick = (event, targetId) => {
+    event.preventDefault(); // Prevent default anchor behavior
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      const offset = 80; // Offset in pixels
+      const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth", // Smooth scrolling
+      });
+    }
+  };
+
   return (
     <nav
       className={cn("navbar", {
@@ -28,7 +44,7 @@ const Navbar = () => {
     >
       <div className="logo-holder">
         <a href="#landing-holder" className="navbar-logo">
-          David Mejia
+          DM
         </a>
       </div>
       <div className="page-links">
@@ -38,27 +54,29 @@ const Navbar = () => {
           })}
           onClick={handleClick}
         ></div>
-        <div className={cn("ham-nav", {
-          open_ham: isOpen
-        })}>
+        <div
+          className={cn("ham-nav", {
+            open_ham: isOpen,
+          })}
+        >
           <div>
-            <a href="#about-holder">ABOUT</a>
+            <a href="#about-holder" onClick={(e) => handleNavClick(e, "#about-holder")}>ABOUT</a>
           </div>
           <div>
-            <a href="#my-projects">WORK</a>
-          </div>
-          <div>
-            <a href="#contact-holder">CONTACT</a>
+            <a href="#my-projects" onClick={(e) => handleNavClick(e, "#my-projects")}>WORK</a>
           </div>
           <div>
             <a id="resume-link" className="resume-link" href={PDF} target="_blank" rel="noopener noreferrer">
               RESUME
             </a>
           </div>
+          <div>
+            <a href="#contact-holder" onClick={(e) => handleNavClick(e, "#contact-holder")}>GET IN TOUCH</a>
+          </div>
         </div>
         <span className="link-holder">
           {/* ./ */}
-          <a href="#about-holder">ABOUT</a>
+          <a href="#about-holder" onClick={(e) => handleNavClick(e, "#about-holder")}>ABOUT</a>
         </span>
         {/* <span className="link-holder">
             ./
@@ -66,11 +84,7 @@ const Navbar = () => {
           </span> */}
         <span className="link-holder">
           {/* ./ */}
-          <a href="#my-projects">WORK</a>
-        </span>
-        <span className="link-holder">
-          {/* ./ */}
-          <a href="#contact-holder">CONTACT</a>
+          <a href="#my-projects" onClick={(e) => handleNavClick(e, "#my-projects")}>WORK</a>
         </span>
         <span className="link-holder resume">
           {/* ./ */}
@@ -79,6 +93,10 @@ const Navbar = () => {
           </a>
         </span>
       </div>
+      <span className="contact-link-holder">
+        {/* ./ */}
+        <a href="#contact-holder" onClick={(e) => handleNavClick(e, "#contact-holder")}>GET IN TOUCH</a>
+      </span>
     </nav>
   );
 };

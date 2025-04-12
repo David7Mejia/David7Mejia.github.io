@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 3rem;
+  margin: 0 6rem;
 
   /* prettier-ignore */
   .blob2 {
@@ -19,40 +21,25 @@
 
 
     mix-blend-mode: color-dodge;
-    -webkit-animation: move 25s infinite alternate;
-    animation: move 25s infinite alternate;
+    -webkit-animation: move 12s infinite alternate;
+    animation: move 12s infinite alternate;
     transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
-    /* -webkit-filter: blur(15px); */
     filter: blur(30px);
   }
 
   .project-blob-container {
-    margin: 0 6rem;
     overflow: hidden;
-  }
-}
-@keyframes move {
-  from {
-    transform: translate(min(10%, 100vw - 150px), 0px) rotate(180deg);
-    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
-  }
-
-  to {
-    transform: translate(min(90%, 100vw - 300px), 100px) rotate(-90deg);
-    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
 
 .project-holder {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1400px;
 
   width: 100%;
   gap: 32px;
-  margin-bottom: 6rem;
   z-index: 15;
   flex: 2 1;
 }
@@ -64,8 +51,9 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 1rem;
-  height: 16rem;
-  border: 1px solid #f7f7f7;
+  height: 100%;
+  max-height: 18rem;
+  border: 1px solid #1c1c1c;
   border-radius: 8px;
   backdrop-filter: blur(60px);
   -webkit-backdrop-filter: blur(22px);
@@ -76,7 +64,6 @@
     display: flex !important;
     gap: 16px;
     height: 100%;
-    /* align-items: center; */
     .right-btn {
       display: flex !important;
       flex-direction: column;
@@ -90,14 +77,13 @@
   display: flex;
   margin: 0;
   height: fit-content;
-  color: #edf2f4;
+  /* color: #edf2f4; */
+  color: #1c1c1c;
 
-  /* margin-bottom: 70px; */
 }
 
 .project-1 {
   width: 100%;
-  /* max-width: 362.37px; */
   border-radius: 8px;
 }
 
@@ -132,8 +118,9 @@
 }
 
 .project-title {
-  font-size: 25px;
-  color: #edf2f4;
+  font-size: 2rem;
+  /* color: #edf2f4; */
+  color: #1c1c1c;
 
   line-height: 2rem;
   letter-spacing: 0.1rem;
@@ -141,9 +128,7 @@
   margin: 0 0 32px 0;
 }
 
-.project p {
-  /* color: #e6e9e9; */
-}
+
 
 .gh-link {
   display: flex;
@@ -159,7 +144,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-top: 0.5rem;
 }
 
 .gh-link-holder a {
@@ -169,12 +154,10 @@
 }
 
 #projects-intro {
+  color: #1c1c1c;
 }
 
 @media only screen and (max-width: 850px) {
-  /* .project {
-    width: 80%;
-  } */
 }
 
 @media (max-width: 1495px) {

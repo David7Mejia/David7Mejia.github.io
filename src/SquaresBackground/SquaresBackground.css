@@ -1,0 +1,26 @@
+.grid-background {
+  position: relative; /* container for squares + overlay */
+  display: flex;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-content: flex-start;
+  /* height: calc(100vh - 80px); */
+  z-index: -1; /* behind main content */
+}
+
+/* Overlay that gradually fades at the edges */
+.grid-background::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 1) 100%);
+  z-index: 1;
+  background: transparent;
+  background: radial-gradient(circle, transparent 0%, hsla(0, 0%, 97%, 1) 80%);
+}

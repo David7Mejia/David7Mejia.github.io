@@ -19,11 +19,11 @@ const Projects = () => {
 
   return (
     <div className="my-projects" id="my-projects">
-      <p className="about-me-intro" id="projects-intro">
-        Projects
-      </p>
+      <h1 className="about-me-intro" id="projects-intro">
+        PROJECTS
+      </h1>
       <div className="project-blob-container">
-        <div className="blob2"></div>
+        {/* <div className="blob2"></div> */}
         <div className="project-holder" id="project-holder">
           <div className="project" id="nomadika">
             <p className="project-title">Nomadika</p>
