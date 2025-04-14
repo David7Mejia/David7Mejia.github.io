@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.557461b5.css",
-    "main.js": "/static/js/main.67aad7d2.js",
+    "main.css": "/static/css/main.9ee566dc.css",
+    "main.js": "/static/js/main.14dc289d.js",
     "static/media/Travlr.PNG": "/static/media/Travlr.3c12e07dc76715a72ac1.PNG",
     "static/media/GrammyGram.PNG": "/static/media/GrammyGram.8b1046e26a2c0752d484.PNG",
     "static/media/Nomadika.PNG": "/static/media/Nomadika.859c779c550a4c333097.PNG",
@@ -11,11 +11,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.ad1ce112977a244b104b.svg",
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.62666366309bcf69286c.svg",
-    "main.557461b5.css.map": "/static/css/main.557461b5.css.map",
-    "main.67aad7d2.js.map": "/static/js/main.67aad7d2.js.map"
+    "main.9ee566dc.css.map": "/static/css/main.9ee566dc.css.map",
+    "main.14dc289d.js.map": "/static/js/main.14dc289d.js.map"
   },
   "entrypoints": [
-    "static/css/main.557461b5.css",
-    "static/js/main.67aad7d2.js"
+    "static/css/main.9ee566dc.css",
+    "static/js/main.14dc289d.js"
   ]
 }
