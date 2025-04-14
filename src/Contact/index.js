@@ -20,8 +20,14 @@ const Contact = () => {
         <div className="contact-container">
           <div className="social-holder">
             <div className="social-about">
-              <div className="social-title">David Mejia</div>
-              <div className="social-desc">Full-Stack Software Engineer</div>
+              <div>
+                <div className="social-title">David Mejia</div>
+                <div className="social-desc">Full-Stack Software Engineer</div>
+              </div>
+              <div>
+                <div className="social-title">Email</div>
+                <div className="social-email">davidmejiasoftware@gmail.com</div>
+              </div>
             </div>
             <div className="socials-container-2">
               <div>
@@ -35,10 +41,6 @@ const Contact = () => {
                     <div className="github"></div>
                   </a>
                 </div>
-              </div>
-              <div>
-                <div className="social-title">Email</div>
-                <div className="social-email">davidmejiasoftware@gmail.com</div>
               </div>
             </div>
           </div>

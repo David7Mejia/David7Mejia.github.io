@@ -10,6 +10,11 @@
   background-image: url("../images/github-sign.svg");
 }
 
+.social-about {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
 .github,
 .linkedin,
 .email {
@@ -37,7 +42,6 @@
 .social-title {
   font-size: 20px;
   color: #edf2f4;
-  margin-bottom: 10px;
 }
 
 .social-email {
@@ -48,7 +52,6 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-
 }
 
 .socials-container-2 {
@@ -65,7 +68,6 @@
   display: flex;
   justify-content: space-evenly;
 }
-
 
 /* @media (max-width: 900px) {
 }
