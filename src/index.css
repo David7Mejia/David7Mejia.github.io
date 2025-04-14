@@ -150,7 +150,7 @@ body {
     margin-right: 2rem !important;
   }
   .contact-container * {
-    font-size: 1rem !important;
+    font-size: 14px !important;
   }
   .hamburger {
     display: flex !important;
@@ -223,5 +223,14 @@ body {
   }
   .my-role {
     font-size: 16px !important;
+  }
+
+  .about-me-intro {
+    font-size: 2rem !important;
+  }
+  .my-projects,
+  .about-holder,
+  #contact-holder {
+    padding: 1rem !important;
   }
 }
