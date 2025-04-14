@@ -2,7 +2,6 @@
   z-index: 10;
   overflow: hidden;
   position: absolute;
-  justify-content: flex-start;
   display: flex;
   height: calc(100% - 80px);
   top: 0;
@@ -11,6 +10,8 @@
   color: #fff;
   width: 100%;
   justify-content: center;
+  margin-top: 80px;
+  padding: 0 6rem;
 }
 
 .left-landing-container {
@@ -57,7 +58,6 @@
   width: 100%;
 }
 
-
 .animation-holder {
   margin-top: 80px;
 }
@@ -75,7 +75,7 @@
   font-family: "Michroma", sans-serif;
   font-style: normal;
   text-align: center;
-  font-size: 96px;
+  font-size: 6rem;
   z-index: 30;
   font-weight: bold;
   margin-bottom: 20px;
@@ -89,8 +89,12 @@
 .my-role {
   text-align: center;
   font-size: 24px;
-  font-family: "Michroma", sans-serif;
   /* color: #edf2f4; */
+}
+
+.my-role span {
+  font-family: "Michroma", sans-serif;
+  margin: 0;
 }
 
 .my-intro {
@@ -102,6 +106,7 @@
   font-family: "Michroma", sans-serif;
   font-style: normal;
   align-items: center;
+  /* padding: 0 6rem; */
 }
 
 .intro-talk {
@@ -116,7 +121,7 @@
   max-width: 600px;
   text-align: center;
 }
-
+/*
 @media (max-width: 700px) {
   .my-intro {
     font-size: 3rem;
@@ -132,6 +137,7 @@
 }
 
 /* RESPONSIVE MARGINS FOR TITLES */
+/*
 @media (max-width: 900px) {
   .my-intro {
     font-size: 3rem;
@@ -165,4 +171,4 @@
     margin-left: 2rem !important;
     margin-right: 2rem !important;
   }
-}
+} */

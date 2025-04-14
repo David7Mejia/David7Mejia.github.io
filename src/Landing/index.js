@@ -41,7 +41,7 @@ const Landing = () => {
       <div className="my-intro">
         <span className="my-name">DAVID MEJIA</span>
         <span className="my-role">
-          <span className="fullstack">FULL-STACK</span> SOFTWARE ENGINEER
+          <span className="fullstack">FULL-STACK</span> <span>SOFTWARE ENGINEER</span>
         </span>
         <p className="intro-talk">
           Experience in Creating High Quality Digital Solutions,

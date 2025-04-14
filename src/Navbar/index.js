@@ -59,17 +59,17 @@ const Navbar = () => {
             open_ham: isOpen,
           })}
         >
-          <div>
+          <div className="">
             <a href="#about-holder" onClick={e => handleNavClick(e, "#about-holder")}>
               ABOUT
             </a>
           </div>
-          <div>
+          <div className="">
             <a href="#my-projects" onClick={e => handleNavClick(e, "#my-projects")}>
               WORK
             </a>
           </div>
-          <div>
+          <div className="">
             <a id="resume-link" className="resume-link" href={PDF} target="_blank" rel="noopener noreferrer">
               RESUME
             </a>
