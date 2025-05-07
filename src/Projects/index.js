@@ -37,7 +37,7 @@ const Projects = () => {
               </a>
               <div className="gh-link-holder">
                 <a rel="noreferrer" href="https://www.omninexus.co" className="gh-link" target="_blank">
-                  GitHub
+                  Website
                 </a>
               </div>
             </div>
