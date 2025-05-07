@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import PDF from "../assets/DM_Resume2025-2.pdf";
+import PDF from "../assets/DMResume2025.pdf";
 import useScroll from "../Hooks/useScroll";
 import "./Navbar.css";
 import cn from "classnames";

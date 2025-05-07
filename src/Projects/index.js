@@ -8,6 +8,8 @@ import travlr from "../images/Travlr.PNG";
 import oilflow from "../images/StackOilFLow.PNG";
 import grammy from "../images/GrammyGram.PNG";
 import ScrollReveal from "scrollreveal";
+import chatUI from "../images/React-ChatUI.png";
+import omniNexus from "../images/OMNI.png";
 
 const Projects = () => {
   useEffect(() => {
@@ -20,11 +22,51 @@ const Projects = () => {
   return (
     <div className="my-projects" id="my-projects">
       <h1 className="about-me-intro" id="projects-intro">
-        PROJECTS
+        Work
       </h1>
       {/* <div className="project-blob-container"> */}
       {/* <div className="blob2"></div> */}
       <div className="project-holder" id="project-holder">
+        <div className="project" id="chatUI">
+          <p className="project-title">Omni Nexus</p>
+
+          <div className="card-info">
+            <div className="card-left">
+              <a rel="noreferrer" href="https://omninexus.co" target="_blank">
+                <img src={omniNexus} alt="omni-nexus" className="project-1" />
+              </a>
+              <div className="gh-link-holder">
+                <a rel="noreferrer" href="https://www.omninexus.co" className="gh-link" target="_blank">
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="card-right">
+              <p className="project-desc">Omni Nexus LLC. Custom AI integration for SMBs. Agentic Generative LLM based AI flows that optimize internal processes. LangChain, Flowise, N8N.</p>
+            </div>
+          </div>
+        </div>
+        <div className="project" id="chatUI">
+          <p className="project-title">React Chat UI</p>
+
+          <div className="card-info">
+            <div className="card-left">
+              <a rel="noreferrer" href="https://nomadika.herokuapp.com/" target="_blank">
+                <img src={chatUI} alt="react-chat-ui" className="project-1" />
+              </a>
+              <div className="gh-link-holder">
+                <a rel="noreferrer" href="https://github.com/David7Mejia/reacr-AI-chat" className="gh-link" target="_blank">
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="card-right">
+              <p className="project-desc">A simple React + Vite based LLM Chat UI that connects to OpenAI and Gemini models. A Proof of Concept for larger projects.</p>
+            </div>
+          </div>
+        </div>
         <div className="project" id="nomadika">
           <p className="project-title">Nomadika</p>
 
