@@ -56,7 +56,7 @@ const Projects = () => {
                 <img src={chatUI} alt="react-chat-ui" className="project-1" />
               </a>
               <div className="gh-link-holder">
-                <a rel="noreferrer" href="https://github.com/David7Mejia/reacr-AI-chat" className="gh-link" target="_blank">
+                <a rel="noreferrer" href="https://github.com/David7Mejia/react-AI-chat" className="gh-link" target="_blank">
                   GitHub
                 </a>
               </div>
